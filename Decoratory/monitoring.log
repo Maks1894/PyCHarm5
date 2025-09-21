@@ -1,0 +1,5 @@
+ Nazwa funkcji check_availability, czas rozpoczêcia 1758474639.8425 seconds, czas  zakoñczenia 1758474639.8425 seconds, Arguments: (<inventory.InventoryManager object at 0x00000245DAF970E0>, 'Laptop', 3), {} Status: Success
+ Nazwa funkcji update_stock, czas rozpoczêcia 1758474639.8522 seconds, czas  zakoñczenia 1758474639.8522 seconds, Arguments: (<inventory.InventoryManager object at 0x00000245DAF970E0>, 'Laptop', 3), {} Status: Success
+ Nazwa funkcji process_order, czas rozpoczêcia 1758474639.8425 seconds, czas  zakoñczenia 1758474639.8823 seconds, Arguments: (<order.OrderProcessor object at 0x00000245DAF97380>, 'Laptop', 3), {} Status: Success
+ Nazwa funkcji get_stock, czas rozpoczêcia 1758474639.8981 seconds, czas  zakoñczenia 1758474639.8981 seconds, Arguments: (<inventory.InventoryManager object at 0x00000245DAF970E0>,), {} Status: Success
+ Nazwa funkcji main, czas rozpoczêcia 1758474595.2334 seconds, czas  zakoñczenia 1758475055.8717 seconds, Arguments: (), {} Status: Success
