@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ksiegarnia</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ksiegarnia Maksyma</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Strona glowna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Historia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="hero_section">
+        <img src="https://i.imgur.com/D0BYIdd.png">
+    </div>
+    <div id="saldo">
+    <h1>Aktualne saldo: 100000 zł</h1>
+    </div>
+    <div id="forms">
+        <div>
+            <form>
+              <h2>Zmiana salda</h2>
+              <div class="mb-3">
+                <label for="example" class="form-label">Kwota</label>
+                <input type="number" class="form-control" id="example" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="btn btn-primary">Dodaj kwote</button>
+            </form>
+        </div>
+        <div>
+            <form>
+              <h2>Wyporzyc ksiezke</h2>
+              <div class="mb-3">
+                <label for="numer_isbn" class="form-label">Numer ISBN</label>
+                <input type="number" class="form-control" id="numer_isbn" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="btn btn-primary">Wyporzyc</button>
+            </form>
+        </div>
+        <div>
+            <form>
+              <h2>Dodaj ksiezke</h2>
+              <div class="mb-3">
+                <label for="numer_isbn_2" class="form-label">Numer ISBN</label>
+                <input type="number" class="form-control" id="numer_isbn_2" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="author" class="form-label">Autor</label>
+                <input type="text" class="form-control" id="author" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="title" class="form-label">Tytul</label>
+                <input type="text" class="form-control" id="title" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="quantity" class="form-label">Ilosc sztuk</label>
+                <input type="number" class="form-control" id="quantity" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="price" class="form-label">Cena</label>
+                <input type="number" class="form-control" id="price" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="btn btn-primary">Dodaj</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

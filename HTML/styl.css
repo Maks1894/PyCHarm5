@@ -1,0 +1,40 @@
+#hero_section {
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#hero_section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    margin: 0;
+    background-color: #ecf0f1;
+    padding-bottom: 50px;
+#forms {
+
+    display: flex;
+    width: 96%;
+    justify-content: space-around;
+}
+
+#saldo {
+    margin: 5%;
+}
